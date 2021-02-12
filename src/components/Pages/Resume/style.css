@@ -1,0 +1,20 @@
+.resume-main{
+    padding-top: 56px;
+}
+
+.left-resume{
+    padding-left: 1vw;
+    color: white;
+}
+
+.resume-r-col{
+    color: white;
+    background: linear-gradient(rgba(4, 4, 10, 0.75), rgba(20, 0, 5, 0.75), rgb(4, 4, 10, 0.75));
+    padding: 2em;
+}
+
+.resume-avatar{
+    background-image: url(../../../assets/contact-me.jpg) cover center;
+    height: 24vh;
+    width: 24vw;
+}

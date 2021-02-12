@@ -1,0 +1,15 @@
+.category-tabs{
+    padding-top: 56px;
+    background: linear-gradient(to right, rgb(4, 4, 10), rgb(20, 0, 5), rgb(4, 4, 10));
+}
+.project-grid-container{
+        min-height: 60vh;
+        background-color:  rgb(2, 2, 2);
+        background-image: url("../../../assets/Backdrop.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+.project-cards{
+    opacity: 80%;
+}

@@ -1,0 +1,155 @@
+.landingMain{
+    position: absolute;
+    width: 100vw;
+    height: 87vh;
+}
+
+.landing-1st-row{
+    background: none;
+    width: 98%;
+}
+
+.landing-2nd-row{
+    margin-top: 6vh!important;
+}
+
+.profile-title{
+    padding-top: 1vh;
+    padding-left: 3vw;
+    color: rgb(230, 230, 230);
+}
+
+.profile-text{
+    color: rgb(230, 230, 230);
+    max-width: 80%;
+    margin: auto;
+}
+
+
+.profile-pic{
+    background-image: url(../../../assets/contact-me.jpg);
+    opacity: 50%;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+    display: block;
+}
+
+.my-link-container{
+    margin-top: 3vh;
+    text-align: center;
+}
+
+.my-links{
+    color: white;
+    margin:3vw;
+    font-size: 3vh;
+}
+
+#lI{
+    padding: 5px;
+    background-color: rgb(0, 111, 145);
+    border-radius: 8px;
+}
+
+.profile-pic:hover{
+    cursor: pointer;
+}
+
+.landing-columns{
+    max-width: 30vw!important;
+    margin-right: 1vw;
+    margin-left: 1vw;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+    .landingMain{
+        padding-top: 70px;
+    }
+    .profile-pic{
+        height: 100px;
+        width: 100px;
+    }
+    .profile-title{
+        font-size: 3vw;
+        line-height: 40px;
+    }
+    .profile-text{
+        font-size: 2vw;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media screen and (min-width: 600px) {
+    .landingMain{
+        padding-top: 85px;
+    }
+    .profile-pic{
+        height: 250px;
+        width: 250px;
+    }
+    .profile-title{
+        font-size: 3vw;
+        line-height: 40px;
+    }
+    .profile-text{
+        font-size: 2vw;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media screen and (min-width: 768px) {
+    .landingMain{
+        padding-top: 100px;
+    }
+    .profile-pic{
+        height: 225px;
+        width: 225px;
+    }
+    .profile-title{
+        font-size: 3vw;
+        line-height: 40px;
+    }
+    .profile-text{
+        font-size: 2vw;
+    }
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media screen and (min-width: 992px) {
+    .landingMain{
+        padding-top: 135px;
+    }
+    .profile-pic{
+        height: 275px;
+        width: 275px;
+    }
+    .profile-title{
+        font-size: 3vw;
+        line-height: 50px;
+    }
+    .profile-text{
+        font-size: 2vw;
+    }
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media screen and (min-width: 1200px) {
+    .landingMain{
+        padding-top: 155px;
+    }      
+    .profile-pic{
+        height: 350px;
+        width: 350px;
+    }
+    .profile-title{
+        font-size: 3vw;
+        line-height: 60px;
+    }
+    .profile-text{
+        font-size: 2vw;
+    }
+  }
